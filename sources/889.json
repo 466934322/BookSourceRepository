@@ -11,8 +11,8 @@
     "status":[],
     "update":[],
     "lastChapter":[],
-    "link":["a:nth-child(2)[href]"],
-    "catalog":[".gengduo>@attr->href"]
+    "link":["a:nth-child(2)@attr->href"],
+    "catalog":[]
   },
   "catalog":{
     "list":"ul.lb.fk>li",
