@@ -9,6 +9,14 @@
       "rank": 0,
       "auth": false,
       "version": 103
+    },
+    {
+      "name": "yuzhaiwen",
+      "url": "https://www.yuzhaiwen.com/",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
     }
   ]
 }

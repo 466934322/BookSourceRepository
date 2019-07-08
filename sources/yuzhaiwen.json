@@ -1,0 +1,38 @@
+{
+  "name": "yuzhaiwen",
+  "version": 100,
+  "category": 1,
+  "url": "https://www.yuzhaiwen.com/",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["#info > div.infotitle > h1 "],
+    "author": ["#info > div.infotitle > span > a"],
+    "cover": ["#novelPic@attr->src"],
+    "summary": ["#aboutbook"],
+    "category": ["a.typename@attr->title"],
+    "status": [],
+    "update": ["#info > div.infotitle > span > span > time"],
+    "lastChapter": ["tbody > tr > td:nth-child(2) > a"],
+    "link": ["tbody > tr > td:first-child > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#box > .zjbox > dl",
+    "orderBy": 1,
+    "booklet": {
+      "name": "dt > h2",
+      "list": ".chapter_list"
+    },
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#main > div:nth-child(2) > div > p:nth-child(4) ",
+  },
+  "search": {
+    "link": "https://www.yuzhaiwen.com/modules/article/search.php@post->searchkey=${key}&searchtype=articlename",
+    "list": "tbody > tr"
+  }
+}
