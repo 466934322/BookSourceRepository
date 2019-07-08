@@ -1,6 +1,6 @@
 {
   "name": "yuzhaiwen",
-  "version": 100,
+  "version": 101,
   "category": 1,
   "url": "https://www.yuzhaiwen.com/",
   "charset": "gbk",
@@ -29,7 +29,7 @@
     }
   },
   "content": {
-    "text": "#main > div:nth-child(2) > div > p:nth-child(4) ",
+    "text": "#main > div:nth-child(2) > div > p:nth-child(4) "
   },
   "search": {
     "link": "https://www.yuzhaiwen.com/modules/article/search.php@post->searchkey=${key}&searchtype=articlename",
