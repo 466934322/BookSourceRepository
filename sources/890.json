@@ -1,6 +1,6 @@
 {
   "name": "890",
-  "version": 100,
+  "version": 101,
   "category": 1,
   "url": "https://m.banzhuer.com",
   "charset": "gbk",
@@ -8,9 +8,6 @@
     "name":["a:nth-child(2)"],
     "author":["a:nth-child(3)"],
     "category":["a:first-child"],
-    "status":[],
-    "update":[],
-    "lastChapter":[],
     "link":["a:nth-child(2)@attr->href"],
     "catalog":[]
   },
