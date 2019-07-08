@@ -1,6 +1,6 @@
 {
   "name": "版主网",
-  "version": 100,
+  "version": 101,
   "category": 1,
   "url": "https://m.banzhuer.com",
   "charset": "gbk",
@@ -25,7 +25,7 @@
     }
   },
   "search": {
-    "link": "https://m.banzhuer.com@post->submit=&type=articlename&s=${key}",
+    "link": "https://m.banzhuer.com/s.php@post->submit=&type=articlename&s=${key}",
     "list": "ul.fk>li"
   }
 }
