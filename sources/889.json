@@ -1,34 +1,31 @@
 {
-  "name": "笔趣阁",
-  "version": 103,
+  "name": "版主网",
+  "version": 100,
   "category": 1,
-  "url": "https://www.biqubao.com",
-  "charset": "utf-8",
+  "url": "https://m.banzhuer.com",
+  "charset": "gbk",
   "metadata": {
-    "name": ["a.result-game-item-title-link > span"],
-    "author": ["div.result-game-item-info > p:nth-child(1) > span:nth-child(2)"],
-    "cover": ["img.result-game-item-pic-link-img@attr->src"],
-    "summary": ["p.result-game-item-desc"],
-    "category": ["div.result-game-item-info > p:nth-child(2) > span:nth-child(2)"],
-    "status": ["meta[property=og:novel:status]@attr->content"],
-    "update": ["meta[property=og:novel:update_time]@attr->content"],
-    "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
-    "link": ["a.result-game-item-pic-link@attr->href"],
-    "catalog": []
+    "name":["a:nth-child(2)"],
+    "author":["a:nth-child(3)"],
+    "category":["a:first-child"],
+    "status":[],
+    "update":[],
+    "lastChapter":[],
+    "link":["a:nth-child(2)[href]"],
+    "catalog":[".gengduo>a[href]"],
   },
-  "catalog": {
-    "list": "div#list > dl > dd",
-    "orderBy": 0,
-    "chapter": {
-      "name": "a",
-      "link": "a@attr->href"
+  "catalog":{
+    "list":"ul.lb.fk>li",
+    "chapter":{
+        "name":"ul.lb.fk>li>a",
+        "link":"ul.lb.fk>li>a[href]",
+    },
+    "content":{
+        "text":"article#id",
     }
   },
-  "content": {
-    "text": "div#content"
-  },
   "search": {
-    "link": "https://www.biqubao.com/search.php?keyword=${key}",
-    "list": "div.result-list > div"
+    "link": "https://m.banzhuer.com@post->submit=&type=articlename&s=${key}",
+    "list": "ul.fk>li"
   }
 }
