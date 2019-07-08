@@ -12,16 +12,16 @@
     "update":[],
     "lastChapter":[],
     "link":["a:nth-child(2)[href]"],
-    "catalog":[".gengduo>a[href]"],
+    "catalog":[".gengduo>a[href]"]
   },
   "catalog":{
     "list":"ul.lb.fk>li",
     "chapter":{
         "name":"ul.lb.fk>li>a",
-        "link":"ul.lb.fk>li>a[href]",
+        "link":"ul.lb.fk>li>a[href]"
     },
     "content":{
-        "text":"article#id",
+        "text":"article#id"
     }
   },
   "search": {
