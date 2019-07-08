@@ -18,7 +18,7 @@
   },
   "catalog": {
     "list": "#box > .zjbox > dl",
-    "orderBy": 0,
+    "orderBy": 2,
     "chapter": {
       "name": "#chapter_list~.chapter_list>a",
       "link": "#chapter_list~.chapter_list>a@attr->href"
