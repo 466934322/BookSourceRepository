@@ -1,6 +1,6 @@
 {
   "name": "889",
-  "version": 100,
+  "version": 110,
   "category": 1,
   "url": "https://m.banzhuer.com",
   "charset": "gbk",
@@ -18,8 +18,8 @@
     "list":"ul.lb.fk>li",
     "orderBy":1,
     "chapter":{
-        "name":"ul.lb.fk>li>a",
-        "link":"ul.lb.fk>li>@attr->href"
+        "name":"ul>li>a",
+        "link":"ul>li>@attr->href"
     },
     "content":{
         "text":"article#nr"
