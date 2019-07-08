@@ -1,29 +1,34 @@
 {
   "name": "890",
-  "version": 101,
+  "version": 102,
   "category": 1,
   "url": "https://m.banzhuer.com",
   "charset": "gbk",
   "metadata": {
-    "name":["a:nth-child(2)"],
-    "author":["a:nth-child(3)"],
-    "category":["a:first-child"],
-    "link":["a:nth-child(2)@attr->href"],
-    "catalog":[]
+    "name": ["a.blue"],
+    "author": ["a:nth-child(3)"],
+    "cover": ["div.xsfm >img@attr->src"],
+    "summary": ["div.jianjie"],
+    "category": ["a:nth-child(1)@js->${this}.replace(/\\[|\\]/g,'')"],
+    "status": [],
+    "update": ["div.xx > ul > li:nth-child(4)"],
+    "lastChapter": [],
+    "link": ["a.blue@attr->href"],
+    "catalog": ["div.gengduo > a@attr->href"]
   },
-  "catalog":{
-    "list":"section:nth-child(2)>ul>li",
-    "orderBy":1,
-    "chapter":{
-        "name":"section:nth-child(2)>ul>li>a",
-        "link":"section:nth-child(2)>ul>li>a@attr->href"
-    },
-    "content":{
-        "text":"article#nr"
+  "catalog": {
+    "list": "ul.lb > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
     }
+  },
+  "content": {
+    "text": "article#nr"
   },
   "search": {
     "link": "https://m.banzhuer.com/s.php@post->submit=&type=articlename&s=${key}",
-    "list": "ul.fk>li"
+    "list": "ul.fk > li"
   }
 }
