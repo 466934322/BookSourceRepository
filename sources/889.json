@@ -16,6 +16,7 @@
   },
   "catalog":{
     "list":"ul.lb.fk>li",
+    "orderBy":1,
     "chapter":{
         "name":"ul.lb.fk>li>a",
         "link":"ul.lb.fk>li>@attr->href"
