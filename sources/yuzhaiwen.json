@@ -1,6 +1,6 @@
 {
   "name": "yuzhaiwen",
-  "version": 110,
+  "version": 111,
   "category": 1,
   "url": "https://www.yuzhaiwen.com/",
   "charset": "gbk",
@@ -18,7 +18,7 @@
   },
   "catalog": {
     "list": "#box > .zjbox > dl",
-    "orderBy": 2,
+    "orderBy": 0,
     "booklet": {
       "name": "dt > h2",
       "list": ".chapter_list"
