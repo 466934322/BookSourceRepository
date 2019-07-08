@@ -1,6 +1,6 @@
 {
   "name": "890",
-  "version": 102,
+  "version": 103,
   "category": 1,
   "url": "https://m.banzhuer.com",
   "charset": "gbk",
@@ -25,7 +25,11 @@
     }
   },
   "content": {
-    "text": "article#nr"
+    "text": "article#nr",
+    "next":{
+      "link": "a.dise.rt",
+      "text": "下一页"
+    }
   },
   "search": {
     "link": "https://m.banzhuer.com/s.php@post->submit=&type=articlename&s=${key}",
