@@ -8,7 +8,7 @@
     "name": ["td:first-child>a", ".book-info>h1"],
     "author": ["td:nth-child(3)>a", ".book-stats>b:first-child"],
     "cover": [".book-img>img@attr->src"],
-    "summary": [".book-intro>a"],//
+    "summary": [".book-intro>a"],
     "category": ["#bdshare>a:nth-child(2)"],
     "status": ["td:nth-child(6)>a", ".book-stats>b:nth-child(2)"],
     "update": ["td:nth-child(5)>a", ".book-stats>b:nth-child(2)"],
