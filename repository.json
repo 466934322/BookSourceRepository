@@ -18,5 +18,13 @@
       "auth": false,
       "version": 100
     }
+    {
+      "name": "mifeng",
+      "url": "http://www.mifengxs.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }
   ]
 }
