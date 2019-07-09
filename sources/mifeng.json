@@ -1,6 +1,6 @@
 {
   "name": "mifeng",
-  "version": 100,
+  "version": 101,
   "category": 1,
   "url": "http://www.mifengxs.com",
   "charset": "gbk",
@@ -13,7 +13,7 @@
     "status": ["td:nth-child(6)>a", ".book-stats>b:nth-child(2)"],
     "update": ["td:nth-child(5)>a", ".book-stats>b:nth-child(2)"],
     "lastChapter": ["td:nth-child(2) > a"],
-    "link": ["td:first-child > a@attr->href"],
+    "link": ["td:first-child>a@attr->href"],
     "catalog": [".book-link>a@attr->href"]
   },
   "catalog": {
